@@ -28,6 +28,8 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBoxpassword = New System.Windows.Forms.TextBox()
@@ -35,13 +37,18 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.ButtonSaveBarcode = New System.Windows.Forms.Button()
+        Me.ButtonBarcodeGen = New System.Windows.Forms.Button()
+        Me.TextBoxbarcodes = New System.Windows.Forms.TextBox()
+        Me.PictureBoxbarcodes = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        CType(Me.PictureBoxbarcodes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -74,6 +81,7 @@ Partial Class Form1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -97,6 +105,24 @@ Partial Class Form1
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Wifi QR Gen"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(6, 12)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(56, 13)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "Wifi Name"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(6, 115)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "Password"
         '
         'Label1
         '
@@ -164,23 +190,56 @@ Partial Class Form1
         Me.TabPage2.Text = "QR  Code Gen"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label2
+        'TabPage3
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 115)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "Password"
+        Me.TabPage3.Controls.Add(Me.ButtonSaveBarcode)
+        Me.TabPage3.Controls.Add(Me.ButtonBarcodeGen)
+        Me.TabPage3.Controls.Add(Me.TextBoxbarcodes)
+        Me.TabPage3.Controls.Add(Me.PictureBoxbarcodes)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(332, 502)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Barcodes"
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Label3
+        'ButtonSaveBarcode
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 12)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 13)
-        Me.Label3.TabIndex = 10
-        Me.Label3.Text = "Wifi Name"
+        Me.ButtonSaveBarcode.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonSaveBarcode.Location = New System.Drawing.Point(6, 463)
+        Me.ButtonSaveBarcode.Name = "ButtonSaveBarcode"
+        Me.ButtonSaveBarcode.Size = New System.Drawing.Size(320, 33)
+        Me.ButtonSaveBarcode.TabIndex = 3
+        Me.ButtonSaveBarcode.Text = "SaveBarcode"
+        Me.ButtonSaveBarcode.UseVisualStyleBackColor = True
+        '
+        'ButtonBarcodeGen
+        '
+        Me.ButtonBarcodeGen.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonBarcodeGen.Location = New System.Drawing.Point(6, 419)
+        Me.ButtonBarcodeGen.Name = "ButtonBarcodeGen"
+        Me.ButtonBarcodeGen.Size = New System.Drawing.Size(320, 33)
+        Me.ButtonBarcodeGen.TabIndex = 2
+        Me.ButtonBarcodeGen.Text = "GenBarcode"
+        Me.ButtonBarcodeGen.UseVisualStyleBackColor = True
+        '
+        'TextBoxbarcodes
+        '
+        Me.TextBoxbarcodes.Location = New System.Drawing.Point(6, 6)
+        Me.TextBoxbarcodes.Multiline = True
+        Me.TextBoxbarcodes.Name = "TextBoxbarcodes"
+        Me.TextBoxbarcodes.Size = New System.Drawing.Size(320, 178)
+        Me.TextBoxbarcodes.TabIndex = 1
+        '
+        'PictureBoxbarcodes
+        '
+        Me.PictureBoxbarcodes.Location = New System.Drawing.Point(6, 190)
+        Me.PictureBoxbarcodes.Name = "PictureBoxbarcodes"
+        Me.PictureBoxbarcodes.Size = New System.Drawing.Size(320, 223)
+        Me.PictureBoxbarcodes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBoxbarcodes.TabIndex = 0
+        Me.PictureBoxbarcodes.TabStop = False
         '
         'Form1
         '
@@ -200,6 +259,9 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
+        CType(Me.PictureBoxbarcodes, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -218,4 +280,9 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents ButtonBarcodeGen As Button
+    Friend WithEvents TextBoxbarcodes As TextBox
+    Friend WithEvents PictureBoxbarcodes As PictureBox
+    Friend WithEvents ButtonSaveBarcode As Button
 End Class
