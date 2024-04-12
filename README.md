@@ -7,7 +7,7 @@ QR-Code-Generator
 - Text QR Suportet
 
 
-![](QRCodeGenerator.gif)
+![](QRCodeGenerator.mp4)
 
 
 ### Video Youtube: [مجهول عربي](https://youtu.be/rEGTafcHLzs) <br>
