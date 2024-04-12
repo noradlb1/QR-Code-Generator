@@ -1,5 +1,8 @@
 # QR-Code-Generator
 QR-Code-Generator
 
-*Wifi QR Supportet
-*Text QR Suportet
+
+# Current Features
+- Wifi QR Supportet
+- Text QR Suportet
+
