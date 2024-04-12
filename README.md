@@ -9,5 +9,7 @@ QR-Code-Generator
 
 ![](QRCodeGen.PNG)
 
+![](QRCodeGen2.PNG)
+
 
 ### Video Youtube: [مجهول عربي](https://youtu.be/rEGTafcHLzs) <br>
