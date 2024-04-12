@@ -1,0 +1,17 @@
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\QR Code Generator.exe.config
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\QR Code Generator.exe
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\QR Code Generator.pdb
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\QR Code Generator.xml
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\zxing.dll
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\zxing.presentation.dll
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\zxing.xml
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\bin\Debug\zxing.presentation.xml
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR_Code_Gen.Form1.resources
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR_Code_Gen.Resources.resources
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Gen.vbproj.GenerateResource.cache
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Gen.vbproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Gen.vbproj.CopyComplete
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Generator.exe
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Generator.xml
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Generator.pdb
+C:\Users\MONSTERMC\source\repos\QR Code Gen\QR Code Gen\obj\Debug\QR Code Gen.vbproj.AssemblyReference.cache
