@@ -6,3 +6,8 @@ QR-Code-Generator
 - Wifi QR Supportet
 - Text QR Suportet
 
+
+![](QRCodeGenerator.gif)
+
+
+### Video Youtube: [مجهول عربي](https://youtu.be/rEGTafcHLzs) <br>
