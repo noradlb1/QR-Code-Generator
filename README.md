@@ -2,6 +2,8 @@
 QR-Code-Generator
 
 
+![](QRCodeGeneratorNextVar.PNG)
+
 ![](QRCodeGen.PNG)
 
 ![](QRCodeGen2.PNG)
